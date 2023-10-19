@@ -1,0 +1,57 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@david.kucsai/react-pdf-table": "^0.4.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.13",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.1",
+    "@mui/x-data-grid": "^6.16.2",
+    "@react-pdf/pdfkit": "^3.0.2",
+    "@react-pdf/renderer": "^3.1.13",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.5.1",
+    "base-64": "^1.0.0",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "pdf-lib": "^1.17.1",
+    "plotly.js": "^2.26.2",
+    "plotly.js-basic-dist": "^2.26.2",
+    "react": "^18.2.0",
+    "react-data-grid": "^7.0.0-beta.40",
+    "react-dom": "^18.2.0",
+    "react-pdf": "^7.5.0",
+    "react-plotly.js": "^2.6.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "^6.0.9",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
